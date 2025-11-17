@@ -1,0 +1,27 @@
+
+.cursor {
+    display: inline-block;
+    color: #f00093;
+    font-weight: 900;
+    animation: blink 1s steps(1, end) infinite;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: #f00093;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+}
+.typewriter-container {
+      display: inline-block; /* 讓容器寬度隨內容變化 */
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
